@@ -22,16 +22,16 @@ if (env.NODE_ENV === "production") {
 export const metadata: Metadata = {
   metadataBase: new URL(
     env.NODE_ENV === "production"
-      ? "https://scribeHCyour-domain.com"
+      ? "https://FlowMemoyour-domain.com"
       : "http://localhost:3000",
   ),
-  title: "scribeHC",
+  title: "FlowMemo",
   description: "AI ambient scribe app for healthcare.",
   openGraph: {
-    title: "scribeHC",
+    title: "FlowMemo",
     description: "AI ambient scribe app for healthcare.",
-    url: "https://www.scribeHCyour-domain.com",
-    siteName: "scribeHC",
+    url: "https://www.FlowMemoyour-domain.com",
+    siteName: "FlowMemo",
   },
   twitter: {
     card: "summary_large_image",

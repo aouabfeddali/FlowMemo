@@ -2,8 +2,8 @@ import type { ConfigContext, ExpoConfig } from "@expo/config";
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
   ...config,
-  name: "scribeHC",
-  slug: "scribehc",
+  name: "FlowMemo",
+  slug: "flowmemo",
   scheme: "expo",
   version: "0.1.0",
   orientation: "portrait",
@@ -19,7 +19,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   },
   assetBundlePatterns: ["**/*"],
   ios: {
-    bundleIdentifier: "com.scribehc.app",
+    bundleIdentifier: "com.flowmemo.app",
     supportsTablet: true,
     usesAppleSignIn: true,
     config: {
@@ -27,7 +27,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
   },
   android: {
-    package: "com.scribehc.app",
+    package: "com.flowmemo.app",
     adaptiveIcon: {
       foregroundImage: "./assets/icon.png",
       backgroundColor: "#18181A",

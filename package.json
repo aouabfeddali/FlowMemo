@@ -1,5 +1,5 @@
 {
-  "name": "scribehc",
+  "name": "flowmemo",
   "private": true,
   "engines": {
     "node": ">=20.12.0"

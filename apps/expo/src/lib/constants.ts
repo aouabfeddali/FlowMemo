@@ -21,27 +21,27 @@ export const NAV_THEME = {
 
 export const INTRO_CONTENT = [
   {
-    title: "scribeHC",
+    title: "FlowMemo",
     bg: colors.lime[100],
     fontColor: colors.pink[500],
   },
   {
-    title: "scribeHC",
+    title: "FlowMemo",
     bg: colors.stone[900],
     fontColor: colors.sky[200],
   },
   {
-    title: "scribeHC",
+    title: "FlowMemo",
     bg: colors.orange[500],
     fontColor: colors.blue[700],
   },
   {
-    title: "scribeHC",
+    title: "FlowMemo",
     bg: colors.teal[700],
     fontColor: colors.yellow[400],
   },
   {
-    title: "scribeHC",
+    title: "FlowMemo",
     bg: colors.green[800],
     fontColor: colors.pink[500],
   },

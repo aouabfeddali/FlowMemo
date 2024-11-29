@@ -1,16 +1,16 @@
 # Contribution Guidelines
 
-When contributing to `scribeHC`, whether on GitHub or in other community spaces:
+When contributing to `FlowMemo`, whether on GitHub or in other community spaces:
 
 - Be respectful, civil, and open-minded.
-- Before opening a new pull request, try searching through the [issue tracker](https://github.com/trevorpfiz/scribeHC/issues) for known issues or fixes.
+- Before opening a new pull request, try searching through the [issue tracker](https://github.com/trevorpfiz/FlowMemo/issues) for known issues or fixes.
 - If you want to make code changes based on your personal opinion(s), make sure you open an issue first describing the changes you want to make, and open a pull request only when your suggestions get approved by maintainers.
 
 ## How to Contribute
 
 ### Prerequisites
 
-To not waste your time implementing a change that has already been declined, or is generally not needed, start by [opening an issue](https://github.com/trevorpfiz/scribeHC/issues/new/choose) describing the problem you would like to solve.
+To not waste your time implementing a change that has already been declined, or is generally not needed, start by [opening an issue](https://github.com/trevorpfiz/FlowMemo/issues/new/choose) describing the problem you would like to solve.
 
 ### Setup your environment locally
 
@@ -19,7 +19,7 @@ _Some commands will assume you have the Github CLI installed, if you haven't, co
 To contribute to this project, you will need to fork the repository:
 
 ```bash
-gh repo fork trevorpfiz/scribeHC
+gh repo fork trevorpfiz/FlowMemo
 ```
 
 then, clone it to your local machine:

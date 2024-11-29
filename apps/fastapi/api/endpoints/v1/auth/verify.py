@@ -21,7 +21,7 @@ security = HTTPBearer()
 # Define the allowed origins for the azp claim
 ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "com.scribehc.app",
+    "com.flowmemo.app",
 ]
 
 def get_jwks(jwks_url: str):

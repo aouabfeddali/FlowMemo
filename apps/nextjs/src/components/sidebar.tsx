@@ -10,7 +10,7 @@ const Sidebar = () => {
     <aside className="hidden h-screen min-w-52 border-r border-border bg-muted p-4 pt-8 shadow-inner md:block">
       <div className="flex h-full flex-col justify-between">
         <div className="space-y-4">
-          <h3 className="ml-4 text-lg font-semibold">scribeHC</h3>
+          <h3 className="ml-4 text-lg font-semibold">FlowMemo</h3>
           <SidebarItems />
         </div>
         <div className="flex w-full items-center gap-2 border-t border-border px-2 pt-4">

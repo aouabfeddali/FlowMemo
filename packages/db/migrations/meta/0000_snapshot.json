@@ -4,8 +4,8 @@
   "version": "7",
   "dialect": "postgresql",
   "tables": {
-    "public.scribeHC_note": {
-      "name": "scribeHC_note",
+    "public.FlowMemo_note": {
+      "name": "FlowMemo_note",
       "schema": "",
       "columns": {
         "id": {

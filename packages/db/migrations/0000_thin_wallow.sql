@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS "scribeHC_note" (
+CREATE TABLE IF NOT EXISTS "FlowMemo_note" (
 	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
 	"title" varchar(256) NOT NULL,
 	"content" text,

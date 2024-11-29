@@ -1,4 +1,4 @@
-# scribeHC Web Dashboard
+# FlowMemo Web Dashboard
 
 Dashboard to manage the generated SOAP notes and account settings.
 

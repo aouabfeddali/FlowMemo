@@ -37,7 +37,7 @@ const SignInForm = ({ onSubmit = () => {}, isLoading }: SignInFormProps) => {
   return (
     <View className="flex-1 justify-center gap-8">
       <Text testID="form-title" className="text-3xl font-bold">
-        Sign In to scribeHC
+        Sign In to FlowMemo
       </Text>
 
       <View className="flex-1 flex-col gap-8">
