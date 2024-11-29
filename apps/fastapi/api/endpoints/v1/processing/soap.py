@@ -15,29 +15,29 @@ else:
 
 
 def generate_soap(transcript: str) -> str:
-    """Helper function to generate soap note from transcript using OpenAI Chat Completions API."""
-    logging.info("Generating soap note")
+    """Helper function to generate note from transcript using OpenAI Chat Completions API."""
+    logging.info("Generating note")
 
     sample_transcript = textwrap.dedent("""
-    The patient is a 25-year-old right-handed Caucasian female who presented to the emergency department with sudden onset of headache occurring at approximately 11 a.m. on the morning of the July 31, 2008. She described the headache as the worst in her life and it was also accompanied by blurry vision and scotoma. The patient also perceived some swelling in her face. Once in the Emergency Department, the patient underwent a very thorough evaluation and examination. She was given the migraine cocktail. Also was given morphine a total of 8 mg while in the Emergency Department. For full details on the history of present illness, please see the previous history and physical.
+    De patiënt is een 30-jarige rechtshandige Nederlandse man die zich bij de huisarts meldt met aanhoudende sombere gevoelens en verlies van interesse in dagelijkse activiteiten. Deze klachten zijn sinds enkele maanden aanwezig en beïnvloeden zijn functioneren op het werk en in sociale situaties. De huisarts heeft hem doorverwezen naar een psycholoog voor verdere evaluatie en behandeling. Alstublieft vraag ook uit naar medische en familliegeschiedenis, luxerende factoren, somatische factoren, aanhoudende stressoren, instandhoudende factoren en andere relevante klinische onderdelen.
 
-    Doctor: How're you feeling today?
-    Patient: Terrible. I'm having the worst headache of my life.
-    Doctor: I'm so sorry. Well you are only twenty-five, so let's hope this is the last of the worst. Let's see how we can best help you. When did it start?
-    Patient: Around eleven in the morning.
-    Doctor: Today?
-    Patient: Um no yesterday. July thirty-first.
-    Doctor: July thirty-first O eight. Got it. Did it come on suddenly?
-    Patient: Yeah.
-    Doctor: Are you having any symptoms with it, such as blurry vision, light sensitivity, dizziness, lightheadedness, or nausea?
-    Patient: I'm having blurry vision and lightheadedness. I also can't seem to write well. It looks so messy. I am naturally right-handed but my writing looks like I am trying with my left.
-    Doctor: How would you describe the lightheadedness?
-    Patient: Like there are blind spots.
-    Doctor: Okay. How about any vomiting?
-    Patient: Um no. I feel like my face is pretty swollen though. I don't know if it's related to the headache but it started around the same time.
-    Doctor: Here in the ER, we'll do a thorough exam and eval to make sure nothing serious is going on. While we're waiting for your CT results, I'm going to order a migraine cocktail and some Morphine.
-    Patient: Thanks. Will the nurse be in soon?
-    Doctor: Yes, she'll be right in as soon as the order is placed. It shouldn't be more than a few minutes. If it takes longer, then please ring the call bell.
+    Psycholoog: Goedemiddag, welkom. Hoe gaat het vandaag met u?
+    Patiënt: Het gaat niet zo goed. Ik voel me al maanden somber en niets lijkt me nog te interesseren.
+    Psycholoog: Dat klinkt erg vervelend. Kunt u vertellen sinds wanneer u deze gevoelens ervaart?
+    Patiënt: Ik denk dat het ongeveer drie maanden geleden begon.
+    Psycholoog: Heeft u een idee waardoor deze gevoelens zijn ontstaan?
+    Patiënt: Niet precies. Er is niets specifieks gebeurd, maar ik merk dat ik steeds minder plezier haal uit dingen die ik vroeger leuk vond.
+    Psycholoog: Hoe beïnvloeden deze gevoelens uw dagelijks leven?
+    Patiënt: Ik heb moeite om me op mijn werk te concentreren en zie vrienden nauwelijks meer. Ik voel me constant moe en heb nergens energie voor.
+    Psycholoog: Heeft u last van slaapproblemen of veranderingen in uw eetlust?
+    Patiënt: Ja, ik slaap slecht en heb weinig eetlust. Ik ben de afgelopen maanden ook wat afgevallen.
+    Psycholoog: Heeft u eerder soortgelijke klachten gehad?
+    Patiënt: Nee, dit is de eerste keer dat ik me zo voel.
+    Psycholoog: Zijn er momenten waarop u zich beter voelt, of is de somberheid constant aanwezig?
+    Patiënt: Het is vrijwel constant. Zelfs dingen die ik vroeger leuk vond, kunnen me nu niet opvrolijken.
+    Psycholoog: Heeft u gedachten over zelfbeschadiging of suïcide?
+    Patiënt: Soms denk ik dat het makkelijker zou zijn als ik er niet was, maar ik heb geen concrete plannen.
+    Psycholoog: Het is belangrijk dat we deze gedachten serieus nemen. We zullen hier samen aan werken om uw situatie te verbeteren. We zullen een behandelplan opstellen dat past bij uw behoeften en samen werken aan uw herstel.
     """)
 
     # Example format for Tiptap editor as a JSON string
@@ -106,11 +106,11 @@ def generate_soap(transcript: str) -> str:
         messages=[
             {
                 "role": "system",
-                "content": "You are a helpful assistant designed to output JSON.",
+                "content": "Je bent een behulpzame assistent gemaakt om to output JSON.",
             },
             {
                 "role": "user",
-                "content": f"Generate a SOAP note from the following transcript and return it in JSON format for a Tiptap editor. This is the example format: {example_format_str}. The first heading can be the subjective section. The text fields can not be left blank, so try your best to fill them out. Transcript: {transcript}",
+                "content": f"Analyseer het onderstaande transcript en genereer de volgende secties in JSON-formaat voor een Tiptap-editor. Dit is het voorbeeld formaat: {example_format_str}. 1) Een samenvatting van het volledige transcript, met alle belangrijke zaken voor een psycholoog; 2) Een SOAP-notitie met de secties Subjectief, Objectief, Beoordeling en Plan; 3) Opvallende zaken of opmerkingen, met nadruk op wat de patiënt heeft gezegd en wat de psycholoog heeft opgemerkt; 4) Een reflectie op het optreden van de psycholoog, met focus op verbanden die niet zijn gelegd en onderwerpen die mogelijk niet zijn uitgevraagd. Zorg ervoor dat alle velden zijn ingevuld en baseer de output uitsluitend op wetenschappelijk onderzoek, klinische praktijk en de inhoud van het transcript, zonder aannames of verzinsels. Transcript: {transcript}",
             },
         ],
     )

@@ -147,7 +147,7 @@ export default function RecordScreen() {
 
       const currentDate = getFormattedDateTime();
       createNote.mutate({
-        title: `SOAP note - ${currentDate}`,
+        title: `Notities Opname - ${currentDate}`,
         content: responseData.content,
         transcript: responseData.transcription,
       });
@@ -179,8 +179,8 @@ export default function RecordScreen() {
           </View>
 
           <View className="text-center">
-            {!uploading && <Text>Recording...</Text>}
-            {uploading && <Text>Processing...</Text>}
+            {!uploading && <Text>Aan het opnemen...</Text>}
+            {uploading && <Text>Aan het verwerken...</Text>}
           </View>
 
           <View className="flex-1" />
