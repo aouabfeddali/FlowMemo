@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@trevorpfiz",
-    creator: "@trevorpfiz",
+    site: "@aouabfeddali",
+    creator: "@aouabfeddali",
   },
 };
 

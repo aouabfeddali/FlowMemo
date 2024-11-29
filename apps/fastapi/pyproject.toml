@@ -2,7 +2,7 @@
 name = "api"
 version = "0.1.0"
 description = "FastAPI for processing audio files into transcripts and SOAP notes."
-authors = ["trevorpfiz <elektrikspark@gmail.com>", "zacharypfiz <ztpfizcode@gmail.com>"]
+authors = ["aouabfeddali <elektrikspark@gmail.com>", "zacharypfiz <ztpfizcode@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

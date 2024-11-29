@@ -3,8 +3,8 @@
 <!-- PROJECT LOGO -->
 <br>
 <div align="center">
-  <a href="https://github.com/trevorpfiz/FlowMemo">
-    <img src="https://github.com/trevorpfiz/FlowMemo/assets/24904780/0e15369e-2550-42da-84ad-0f224af1ac8a" alt="Logo" width="80" height="80">
+  <a href="https://github.com/aouabfeddali/FlowMemo">
+    <img src="https://github.com/aouabfeddali/FlowMemo/assets/24904780/0e15369e-2550-42da-84ad-0f224af1ac8a" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">FlowMemo - AI Ambient Scribe for Healthcare</h3>
@@ -37,9 +37,9 @@
 
 ## Demo
 
-https://github.com/trevorpfiz/FlowMemo/assets/24904780/a1552b10-9694-4d9c-b5fc-ea3b23c91d8d
+https://github.com/aouabfeddali/FlowMemo/assets/24904780/a1552b10-9694-4d9c-b5fc-ea3b23c91d8d
 
-https://github.com/trevorpfiz/FlowMemo/assets/24904780/3feda629-a0d1-4a33-ba63-0c2c14ae1bb4
+https://github.com/aouabfeddali/FlowMemo/assets/24904780/3feda629-a0d1-4a33-ba63-0c2c14ae1bb4
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,7 +201,7 @@ pnpm db:migrate
 
 ## Feedback
 
-Share your thoughts in [Discussions](https://github.com/trevorpfiz/FlowMemo/discussions)
+Share your thoughts in [Discussions](https://github.com/aouabfeddali/FlowMemo/discussions)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,11 +209,11 @@ Share your thoughts in [Discussions](https://github.com/trevorpfiz/FlowMemo/disc
 
 ## Contributing
 
-We welcome contributions! Find out how you can contribute to the project in `CONTRIBUTING.md`: [Contributing Guidelines](https://github.com/trevorpfiz/FlowMemo/blob/main/CONTRIBUTING.md)
+We welcome contributions! Find out how you can contribute to the project in `CONTRIBUTING.md`: [Contributing Guidelines](https://github.com/aouabfeddali/FlowMemo/blob/main/CONTRIBUTING.md)
 
-<a href="https://github.com/trevorpfiz/FlowMemo/graphs/contributors">
+<a href="https://github.com/aouabfeddali/FlowMemo/graphs/contributors">
   <p align="center">
-    <img src="https://contrib.rocks/image?repo=trevorpfiz/FlowMemo" alt="A table of avatars from the project's contributors" />
+    <img src="https://contrib.rocks/image?repo=aouabfeddali/FlowMemo" alt="A table of avatars from the project's contributors" />
   </p>
 </a>
 
@@ -227,7 +227,7 @@ We welcome contributions! Find out how you can contribute to the project in `CON
 
 ## License
 
-Distributed under the [MIT License](https://github.com/trevorpfiz/FlowMemo/blob/main/LICENSE). See `LICENSE` for more information.
+Distributed under the [MIT License](https://github.com/aouabfeddali/FlowMemo/blob/main/LICENSE). See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
