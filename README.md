@@ -1,11 +1,5 @@
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
-<br>
-<div align="center">
-  <a href="https://github.com/aouabfeddali/FlowMemo">
-    <img src="https://github.com/aouabfeddali/FlowMemo/assets/24904780/0e15369e-2550-42da-84ad-0f224af1ac8a" alt="Logo" width="80" height="80">
-  </a>
 
 <h3 align="center">FlowMemo - AI Ambient Scribe for Healthcare</h3>
 
