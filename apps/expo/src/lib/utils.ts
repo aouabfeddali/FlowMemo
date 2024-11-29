@@ -11,7 +11,7 @@ export const getFormattedDate = () => {
   const year = today.getFullYear();
   const month = (today.getMonth() + 1).toString().padStart(2, "0");
   const day = today.getDate().toString().padStart(2, "0");
-  return `${month}/${day}/${year}`;
+  return `${day}/${month}/${year}`;
 };
 
 export const getFormattedDateTime = () => {
@@ -26,5 +26,5 @@ export const getFormattedDateTime = () => {
   hours = hours % 12;
   hours = hours ? hours : 12; // the hour '0' should be '12'
 
-  return `${month}/${day}/${year} ${hours}:${minutes} ${ampm}`;
+  return `${day}/${month}/${year} ${hours}:${minutes} ${ampm}`;
 };
