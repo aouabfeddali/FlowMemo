@@ -22,27 +22,27 @@ export const NAV_THEME = {
 export const INTRO_CONTENT = [
   {
     title: "FlowMemo",
-    bg: colors.lime[100],
-    fontColor: colors.pink[500],
+    bg: colors.emerald[50],
+    fontColor: colors.green[600],
   },
   {
     title: "FlowMemo",
-    bg: colors.stone[900],
-    fontColor: colors.sky[200],
+    bg: colors.indigo[600],
+    fontColor: colors.sky[100],
   },
   {
     title: "FlowMemo",
-    bg: colors.orange[500],
-    fontColor: colors.blue[700],
+    bg: colors.emerald[800],
+    fontColor: colors.emerald[50],
   },
   {
     title: "FlowMemo",
-    bg: colors.teal[700],
-    fontColor: colors.yellow[400],
+    bg: colors.violet[600],
+    fontColor: colors.violet[50],
   },
   {
     title: "FlowMemo",
-    bg: colors.green[800],
-    fontColor: colors.pink[500],
+    bg: colors.cyan[400],
+    fontColor: colors.emerald[300],
   },
 ];
